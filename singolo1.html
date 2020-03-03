@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>singolo1</title>
+    <link rel="stylesheet" href="singolo1-fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> 
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="singolo1.css">
 </head>
 <body>
     <header class="header">
         <div class="wrapper header__wrapper">
-            <h1 class="logo">singolo<span>*</span></h1>
+            <h1 class="logo">singolo<span class="asterisk">*</span></h1>
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li class="navigation__link">home</li>
-                    <li class="navigation__link">services</li>
-                    <li class="navigation__link">portfolio</li>
-                    <li class="navigation__link">about</li>
-                    <li class="navigation__link">contact</li>
+                    <li class="navigation__link link active-link">home</li>
+                    <li class="navigation__link point">·</li>
+                    <li class="navigation__link link">services</li>
+                    <li class="navigation__link point">·</li>
+                    <li class="navigation__link link">portfolio</li>
+                    <li class="navigation__link point">·</li>
+                    <li class="navigation__link link">about</li>
+                    <li class="navigation__link point">·</li>
+                    <li class="navigation__link link">contact</li>
                 </ul>
             </nav>
-            <div class="header__header-bottom"></div>
         </div>
     </header>
+    <div class="header__header-bottom"></div>
     <main class="main">
         <section class="slider">
             <div class="wrapper slider__wrapper">
@@ -29,7 +36,9 @@
                     <span class="icon icon_left"></span>
                 </div>
                 <img class="i-phone i-phone_portrait" src="" alt="i-phone">
-                <img class="i-phone i-phone_landscape" src="" alt="i-phone" >
+                <img class="i-phone shadow-portrait" src="" alt="i">
+                <img class="i-phone i-phone_landscape" src="" alt="i-phone">
+                <img class="i-phone shadow-landscape" src="" alt="i">
                 <div class="slider__icon">
                     <span class="icon icon_right"></span>
                 </div>
