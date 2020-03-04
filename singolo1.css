@@ -7,14 +7,16 @@ body {
     font-style: normal;
 }
 
-.header {
-    background: #2d303a;
-    padding: 34px 0 35px 0;
-}
-
 .wrapper {
     width: 940px;
     margin: auto;
+}
+
+/* Header */
+
+.header {
+    background: #2d303a;
+    padding: 34px 0 35px 0;
 }
 
 .header__wrapper {
@@ -72,4 +74,104 @@ h1 {
     height: 6px;
     background: #323746;
 }
+
+/* Slider */
+
+.slider {
+    background: #f06c64;
+    padding: 52px 0 59px 0;
+}
+
+.slider__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 483px;
+}
+
+.icon-left {
+    padding-left: 2px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.icon-right {
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.iphones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 797px;
+    padding: 0 4px 1px 0;
+}
+
+/* Portrait Phone */
+
+.iphone-portrait {
+    height: 483px;
+    width: 240px;
+}
+
+.iphone-portrait__phone {
+    position: relative;
+    z-index: 2;
+}
+
+.iphone-portrait__shadow {
+    position: relative;
+    top: -461px;
+    left: 2px;
+    z-index: 1;
+}
+
+.background-portrait {
+    position: relative;
+    background-image: url("../assets/images/background-portrait.png");
+    background-position: -14px -135px;
+    height: 333px;
+    width: 188px;
+    top: -880px;
+    left: 16px;
+    z-index: 3;
+}
+
+/* Landscape Phone */
+
+.iphone-landscape {
+    height: 240px;
+    width: 483px;
+}
+
+.iphone-landscape__phone {
+    position: relative;
+    z-index: 2;
+}
+
+.iphone-landscape__shadow {
+    position: relative;
+    top: -218px;
+    left: 2px;
+    z-index: 1;
+}
+
+.background-landscape {
+    position: relative;
+    background-image: url("../assets/images/background-landscape.png");
+    background-position: -125px 461px;
+    height: 188px;
+    width: 333px;
+    top: -445px;
+    left: 61px;
+    z-index: 3;
+}
+
+.slider__slider-bottom {
+    height: 6px;
+    background: #ea676b;
+}
+
+/* Services */
 
