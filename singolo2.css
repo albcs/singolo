@@ -1,0 +1,220 @@
+@import "singolo1.css";
+
+.portfolio {
+    background: #2d303a;
+    padding: 69px 0 47px 0;
+}
+
+.portfolio__title {
+    font-size: 3rem;
+    color: #666d89;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+
+.portfolio__description {
+    height: 41px;
+    color: #767e9e;
+    font-size: 1.8rem;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: -0.012em;
+    padding-top: 27px;
+}
+
+.portfolio__tags {
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+} 
+
+.portfolio__tag {
+    display: inline-block;
+    color: #767e9e;
+    font-size: 1.2rem;
+    line-height: 20px;
+    font-weight: 400;
+    border: 1px solid #666d89;
+    border-radius: 5px;
+    letter-spacing: -0.012em;
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.tag_selected {
+    border-color: #c5c5c5;
+    color: #dedede;
+}
+
+.images-4-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 19px;
+}
+
+.images-4-column__image {
+    width: 220px;
+    height: 187px;
+    background-color: #464b5e;
+    margin-bottom: 20px;
+}
+
+.sailboat {
+    background: url("./assets/images/sailboat.png");
+    background-position: -8px -11px;
+}
+
+.smile {
+    background: url("./assets/images/smile.png");
+    background-position: -82px -43px;
+}
+
+.city {
+    background: url("./assets/images/city.png");
+    background-position: -11px -1px;
+}
+
+.tin-woodman {
+    background: url("./assets/images/tin-woodman.png");
+    background-position: -24px -2px;
+}
+
+.rabbits {
+    background: url("./assets/images/rabbits.png");
+    background-position: -10px -16px;
+}
+
+.work-station {
+    background: url("./assets/images/work-station.png");
+    background-position: -16px -4px;
+}
+
+.robots {
+    background: url("./assets/images/robots.png");
+    background-position: -31px -39px;
+}
+
+.birds {
+    background: url("./assets/images/birds.png");
+    background-position: -24px -32px;
+}
+
+.fantasy {
+    background: url("./assets/images/fantasy.png");
+    background-position: -16px -2px;
+}
+
+.tape {
+    background: url("./assets/images/tape.png");
+    background-position: -141px -113px;
+}
+
+.other {
+    background: url("./assets/images/other.png");
+    background-position: -144px -175px;
+}
+
+.radio {
+    background: url("./assets/images/radio.png");
+    background-position: -36px -60px;
+}
+
+.portfolio__bottom {
+    height: 6px;
+    background-color: #323746;
+}
+
+.about-us {
+    background: #f2f2f2;
+    padding: 68px 0 67px 0;
+}
+
+.about-us__title {
+    line-height: 18px;
+}
+
+.about-us__description {
+    height: 57px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    padding-top: 27px;
+    letter-spacing: -0.002em;
+}
+
+.employee {
+    padding-top: 48px;
+}
+
+.employee__content {
+    width: 300px;
+}
+
+.employee-photo {
+    height: 300px;
+    width: 300px;
+}
+
+.adam {
+    background: url("./assets/images/adam-jensen.png");
+}
+
+.desmond {
+    background: url("./assets/images/desmond-miles.png");
+}
+
+.scolara {
+    background: url("./assets/images/scolara-visari.png");
+}
+
+.employee__name {
+    padding-top: 17px;
+}
+
+.employee__title {
+    font-size: 1.2rem;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+    letter-spacing: -0.013em;
+    padding-top: 10px;
+}
+
+.employee__contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 153px;
+    padding-top: 22px;
+}
+
+.employee__ico {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.facebook {
+    background: url("./assets/images/facebook.png");
+    
+}
+
+.google {
+    background: url("./assets/images/google.png");
+}   
+
+.twitter {
+    background: url("./assets/images/twitter.png");
+}
+
+.linkedin {
+    background: url("./assets/images/linkedin.png");
+}
+
+.about-us__bottom {
+    height: 6px;
+    background: #ffffff ;
+}
